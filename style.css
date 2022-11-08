@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    max-width: 100vw;
+    max-height: 100vh;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    line-height: 20px;
+}
+h1 {
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.871);
+    padding: 10px;
+    border-bottom: 5px solid rgb(229, 217, 217);
+    line-height: 30px;
+}
+h2, h3 {
+    border-bottom: 5px solid rgba(0, 0, 0, 0.871);
+    padding: 10px;
+}
+section {
+    background-color: rgb(229, 217, 217);
+    padding: 5px;
+    text-align: justify;
+    margin: 5px 5px 0px 5px;
+}
+.exemple {
+    margin-left: 10px;
+}
+button {
+    background-color: rgba(0, 0, 0, 0.871);
+    color: white;
+    font-weight: bold;
+    padding: 2px;
+}
+span {
+    font-style: italic;
+}
+#input_exo2 {
+    border: 1px solid black;
+}
